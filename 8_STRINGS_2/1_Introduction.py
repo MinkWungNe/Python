@@ -49,4 +49,4 @@ num = 1.23456
 print('round up to .xx: ' + str(round(num,2)))
 print('round up to .xx:', str(round(num,2)))
 print('round up to .xx: {:.2f}'.format(num))
-print(f'round up to .xx:')
+print(f"""round up to .xx: {num:.2f} """)
