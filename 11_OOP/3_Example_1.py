@@ -21,9 +21,9 @@ class Product:
         elif coupon == 'SUMMER10':
             self.discount += 10
             print('Coupon SUMMER10 ĐƯỢC ÁP DỤNG')
-        elif coupon == 'SPRINGSALE30':
+        elif coupon == 'SPRINGSALES30':
             self.discount += 30
-            print('Coupon SPRINGSALE30 ĐƯỢC ÁP DỤNG')
+            print('Coupon SPRINGSALES30 ĐƯỢC ÁP DỤNG')
         else:
             print('Coupon của bạn KHÔNG HỢP LỆ')
             
@@ -34,7 +34,7 @@ class Product:
     def __str__(self):
         return 'Name: ' + self.name
 
-# a. Make a ball 'Giant ball' | original price = 10 | discount = 0.5  
+# a. Make a ball 'Giant ball' | original price = 10 | discount = 0.5  THEN apply 'SAVE4' coupon
 ball = Product('Giant ball')
 ball.price = 10
 ball.discount = 0.50
@@ -45,13 +45,13 @@ after = ball.calculate_price()
 
 print('Name:', ball.name, '| Price BEFORE:', before, '| Price AFTER:', after)
 
-# b. Make a Diary 'My adventures'
+# b. Make a Diary 'My adventures' | original price = 15 | discount = 3 THEN apply 'SPRINGSALES30' coupon
 diary = Product('My adventures')
 diary.price = 15
 diary.discount = 3
 
 before = diary.calculate_price()
-diary.apply_coupon('SPRINGSALE30')
+diary.apply_coupon('SPRINGSALES30')
 after = diary.calculate_price()
 
 print('Name:', diary.name, '| Price BEFORE:', before, '| Price AFTER:', after)
