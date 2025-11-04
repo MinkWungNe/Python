@@ -1,12 +1,9 @@
 '''
-1. Đặt đồ ăn trực tuyến. Bạn phải tạo một chương trình phần mềm mới cho việc đặt đồ ăn
-trực tuyến. Khách hàng yêu cầu một hệ thống đặt hàng cơ bản với hai tùy chọn tùy chỉnh,
-một cho pizza và một cho burger. Đơn hàng cơ bản có giá ban đầu là 10 xu. Đối với
-pizza, giá tăng 20% nếu kích thước là cỡ vừa, và tăng 50% nếu kích thước là cỡ lớn. Đối
-với burger, giá tăng 1,5 xu nếu khách hàng thêm phô mai và tăng 1 xu nếu họ thêm hành
-tây. Để kiểm tra mã của bạn, hãy tạo bốn đơn hàng:một pizza nhỏ, một pizza cỡ vừa, và
-một pizza cỡ lớn, cũng như một burger có thêm phô mai và hành tây. Tổng chi phí là bao
-nhiêu?
+1. Đặt đồ ăn trực tuyến. Bạn phải tạo một chương trình phần mềm mới cho việc đặt đồ ăn trực tuyến. Khách hàng yêu cầu 
+một hệ thống đặt hàng cơ bản với hai tùy chọn tùy chỉnh, một cho pizza và một cho burger. Đơn hàng cơ bản có giá ban đầu 
+là 10 xu. Đối với pizza, giá tăng 20% nếu kích thước là cỡ vừa, và tăng 50% nếu kích thước là cỡ lớn. Đối với burger, 
+giá tăng 1,5 xu nếu khách hàng thêm phô mai và tăng 1 xu nếu họ thêm hành tây. Để kiểm tra mã của bạn, hãy tạo bốn đơn hàng
+một pizza nhỏ, một pizza cỡ vừa, và một pizza cỡ lớn, cũng như một burger có thêm phô mai và hành tây. Tổng chi phí là bao nhiêu?
 '''
 
 BASE_PRICE = 10  # xu

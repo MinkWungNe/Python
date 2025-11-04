@@ -21,9 +21,6 @@ class Product:
         elif coupon == 'SUMMER10':
             self.discount += 10
             print('Coupon SUMMER10 ĐƯỢC ÁP DỤNG')
-        elif coupon == 'SPRINGSALES30':
-            self.discount += 30
-            print('Coupon SPRINGSALES30 ĐƯỢC ÁP DỤNG')
         else:
             print('Coupon của bạn KHÔNG HỢP LỆ')
             
