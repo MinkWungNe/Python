@@ -45,3 +45,6 @@ def average(numList):
     return sum/size
 
 print(average([4,7,2,9,5]))
+
+
+

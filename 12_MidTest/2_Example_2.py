@@ -72,3 +72,4 @@ print('Total Books Value:', lib.get_total_value())
 
 #Note: Ôn thêm 'Danh sách', 'từ điển'.
 # Không cần ôn prolog
+
